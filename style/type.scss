@@ -1,0 +1,99 @@
+ul{
+    list-style: none;
+    padding: 0 !important;
+    li{
+        border-bottom: 0.5px solid #ccc;
+    }
+}
+#type{
+    width: 100%;
+    height: auto;
+    .head{
+      .el-row {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        position: fixed;
+        top: 0;
+        border-bottom: 1px solid rgb(210,210,210);
+        &:first-child{
+          img{
+            width: 25px !important;
+            height: 23px;
+          }
+          span{
+            height: 25%;
+            padding: 0 0 5px 0;
+          }
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .grid-content {
+          height: 100%;
+          min-height: 40px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: black;
+        }
+        .book-search{
+          width: 90%;
+          height: 70%;
+          border: 1px solid #eee;
+          border-radius: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 10px;
+          background-color: #eee;
+          input{
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            background-color: #eee;
+          }
+        }
+        .row-bg {
+          padding:0;
+        }
+      }
+    }
+    .content{
+      position: fixed;
+      top: 50px;
+      width: 100%;
+      height: 84%;
+      overflow: hidden;
+      // border: 1px solid red;
+      .el-container{
+          width: 100%;
+          height:100%;
+          text-align: center;
+          .el-aside {
+            width: 17.5% !important;
+            background-color: rgb(237, 240, 243);
+            text-align: center;
+            line-height: 40px;
+            ul{
+                li{
+                    font-size: 13px;
+                    color: #777;
+                }
+                .active{
+                    border-left:3px solid rgb(119, 97, 118);
+                    color: brown;
+                    background-color: #fff;
+                }
+            }
+          }
+          .el-main {
+            padding: 0 !important;
+            background-color: #fff;
+            color: #333;
+          }
+        }
+    }
+  }

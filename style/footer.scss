@@ -1,0 +1,49 @@
+div{
+	display: flex;
+	width: 100%;
+
+a{
+	text-decoration: none;
+}
+.el-row.foot{
+min-height:6rem;
+z-index: 101;
+background-color: white;
+position: fixed;
+bottom: 0;
+.grid-content {
+  min-height: 40px;
+		line-height: 2.5rem;
+		border-top: 1px solid rgb(206,206,206);
+}
+.grid-content a{
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  color: black;
+		  img{
+			  width: 25%;
+		  }
+		  span{
+			  height: 25%;
+		  }
+}
+.row-bg {
+  padding:  0;
+ 
+}
+.router-link-exact-active{
+		  color:rgb(188,140,100) !important;
+}
+.el-row:last-child{
+		  margin-bottom: 0;
+}
+}
+main{
+  width: 100%;
+}
+.on{
+  display: none;
+}
+}
